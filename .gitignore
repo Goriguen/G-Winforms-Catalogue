@@ -1,0 +1,56 @@
+# Archivos de caché del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Directorios de compilación y resultados binarios
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+**/[Dd]ebug/
+**/[Rr]elease/
+# Compilador de Roslyn (opcional, pero buena práctica)
+*.pdb
+*.suo
+
+# Archivos temporales y de Visual Studio
+*.user
+*.useros
+*.bak
+*.ncb
+*.resource
+*.sdf
+*.opensdf
+*.docstates
+
+# Archivos de Visual Studio Code y otros editores
+.vscode/
+*.vspscc
+.history/
+
+# Paquetes NuGet y paquetes temporales
+# Directorio de paquetes de NuGet
+[Pp]ackages/
+# Archivos .nupkg generados localmente
+*.nupkg
+# Cache de NuGet si no es global
+*.nuget.cache
+
+# Archivos y carpetas de pruebas de Visual Studio
+TestResults/
+*.trx
+
+# Archivos de configuración de usuario
+# LocalSettings.json, appsettings.Development.json, etc., 
+# que contienen información sensible o de desarrollo local.
+# ¡Es crucial no subir secretos!
+# Ignora archivos que contienen secretos/claves
+appsettings.Development.json
+appsettings.Local.json
+*.localsettings
+*.secret
+
+# Otras extensiones comunes
+*.log
+*.tmp
+*.vs/
